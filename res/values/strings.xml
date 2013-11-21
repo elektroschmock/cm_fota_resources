@@ -3,7 +3,7 @@
 
     <string name="app_name">System updates</string>
 
-    <string name="user_agent">cm-fota/0.9</string>
+    <string name="user_agent" translatable="false">cm-fota/0.9</string>
 
     <!-- Defaults -->
     <string name="default_header">Your system is up to date</string>

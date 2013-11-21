@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <string name="app_name">Actualizaciones del sistema</string>
+
+    <!-- Defaults -->
+    <string name="default_header">Tu sistema esta actualizado</string>
+    <string name="default_desc">Pulsa el botón para comprobar si hay actualizaciones disponibles</string>
+    <string name="default_button">Comprobar actualizaciones</string>
+
+    <!-- Button states -->
+    <string name="cancel_button">Cancelar actualización</string>
+    <string name="download_button">Descargar actualización</string>
+    <string name="install_button">Instalar actualización</string>
+
+    <!-- Description states -->
+    <string name="nothing_found_desc">No hubo actualizaciones disponibles para tu sistema en la última comprobación, <xliff:g id="date" example="4 hours ago">%1$s</xliff:g></string>
+    <string name="generic_update_desc">Existe una actualización de CyanogenMod, <xliff:g id="version">%1$s</xliff:g>, disponible para tu dispositivo. El sistema te notificará cuando esté lista para ser instalada</string>
+    <string name="full_update_desc"><xliff:g id="upstream_desc">%1$s</xliff:g>. El sistema te notificará cuando esté lista para ser instalada</string>
+
+    <!-- Header states -->
+    <string name="pending_update_header">Existe una actualización disponible para tu sistema</string>
+
+    <!-- Notification -->
+    <string name="pending_update_notification">Existe una actualización lista para ser instalada</string>
+    <string name="pending_download_notification">Existe una actualización para ser descargada</string>
+</resources>
