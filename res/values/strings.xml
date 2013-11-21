@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <string name="app_name">System updates</string>
+
+    <string name="user_agent">cm-fota/0.9</string>
+
+    <!-- Defaults -->
+    <string name="default_header">Your system is up to date</string>
+    <string name="default_desc">Press the button to check for updates</string>
+    <string name="default_button">Check for updates</string>
+
+    <!-- Button states -->
+    <string name="cancel_button">Cancel update</string>
+    <string name="download_button">Download update</string>
+    <string name="install_button">Install update</string>
+
+    <!-- Description states -->
+    <string name="nothing_found_desc">No updates were available for your system at last check, <xliff:g id="date" example="4 hours ago">%1$s</xliff:g></string>
+    <string name="generic_update_desc">A CyanogenMod update, <xliff:g id="version">%1$s</xliff:g>, is available for your device. You will be notified when it is ready for installation</string>
+    <string name="full_update_desc"><xliff:g id="upstream_desc">%1$s</xliff:g>. You will be notified when it is ready for installation</string>
+
+    <!-- Header states -->
+    <string name="pending_update_header">An update is available for your system</string>
+
+    <!-- Notification -->
+    <string name="pending_update_notification">System update is ready</string>
+    <string name="pending_download_notification">System update is available</string>
+</resources>
