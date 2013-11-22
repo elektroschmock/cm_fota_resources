@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <string name="app_name">Обновления системы</string>
+
+    <!-- Defaults -->
+    <string name="default_header">Установлена последняя версия</string>
+    <string name="default_desc">Нажмите «Проверить», чтобы выполнить поиск доступных обновлений.</string>
+    <string name="default_button">Проверить</string>
+
+    <!-- Button states -->
+    <string name="cancel_button">Отменить обновление</string>
+    <string name="download_button">Загрузить обновление</string>
+    <string name="install_button">Установить обновление</string>
+
+    <!-- Description states -->
+    <string name="nothing_found_desc">Во время последней проверки, <xliff:g id="date" example="4 часа назад">%1$s</xliff:g>, не было обновлений.</string>
+    <string name="generic_update_desc">Обновление CyanogenMod, версии <xliff:g id="version">%1$s</xliff:g>, доступно для загрузки. Когда оно будет готово к установке, будет выведено уведомление.</string>
+    <string name="full_update_desc"><xliff:g id="upstream_desc">%1$s</xliff:g>. Когда оно будет готово к установке, будет выведено уведомление.</string>
+
+    <!-- Header states -->
+    <string name="pending_update_header">Доступно обновление для вашего устройства</string>
+
+    <!-- Notification -->
+    <string name="pending_update_notification">Обновление готово к установке</string>
+    <string name="pending_download_notification">Доступно обновление системы</string>
+</resources>
