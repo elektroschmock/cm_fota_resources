@@ -20,7 +20,7 @@
     <string name="full_update_desc"><xliff:g id="upstream_desc">%1$s</xliff:g>. Budete upozornení, keď bude aktualizácia pripravená na inštaláciu</string>
 
     <!-- Header states -->
-    <string name="pending_update_header">K dispozícii je aktualizáciu systému</string>
+    <string name="pending_update_header">K dispozícii je aktualizácia systému</string>
 
     <!-- Notification -->
     <string name="pending_update_notification">>Aktualizácia systému je pripravená</string>
