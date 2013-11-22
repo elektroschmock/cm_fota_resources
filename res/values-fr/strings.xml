@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">Mises à jour système</string>
+    <string name="user_agent">cm-fota/0.9</string>
+    <string name="default_header">Votre système est à jour</string>
+    <string name="default_desc">Appuyez sur le bouton pour vérifier les nouvelles mises à jour</string>
+    <string name="default_button">Vérifier les mises à jour</string>
+    <string name="cancel_button">Annuler la mise à jour</string>
+    <string name="download_button">Télécharger la mise à jour</string>
+    <string name="install_button">Installer la mise à jour</string>
+    <string name="nothing_found_desc">Pas de mise à jour disponible lors de la dernière vérification\u00A0: <xliff:g id="date" example="4 hours ago">%1$s</xliff:g></string>
+    <string name="generic_update_desc">La mise à jour CyanogenMod <xliff:g id="version">%1$s</xliff:g> est disponible pour votre appareil. Vous serez averti lorsqu'elle sera prête a être installée</string>
+    <string name="full_update_desc"><xliff:g id="upstream_desc">%1$s</xliff:g>. Vous serez averti lorsque que la mise à jour sera prête a être installée</string>
+    <string name="pending_update_header">Une mise à jour est disponible pour votre système</string>
+    <string name="pending_update_notification">Mise à jour système prête</string>
+    <string name="pending_download_notification">Mise à jour système disponible</string>
+</resources>
