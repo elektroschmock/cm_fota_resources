@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <string name="app_name">Aktualizácie systému</string>
+
+    <!-- Defaults -->
+    <string name="default_header">Váš systém je aktuálny.</string>
+    <string name="default_desc">Stlačte tlačidlo pre kontrolu aktualizácií</string>
+    <string name="default_button">Skontrolovať aktualizácie</string>
+
+    <!-- Button states -->
+    <string name="cancel_button">Zrušiť aktualizáciu</string>
+    <string name="download_button">Prevziať aktualizáciu</string>
+    <string name="install_button">Inštalovať aktualizáciu</string>
+
+    <!-- Description states -->
+    <string name="nothing_found_desc">Nie sú k dispozícií žiadne aktualizácie systému od poslednej kontroly, <xliff:g id="date" example="pred 4 hodinami">%1$s</xliff:g></string>
+    <string name="generic_update_desc" product="tablet">Aktualizácia CyanogenMod, <xliff:g id="version">%1$s</xliff:g>, je dostupná pre Váš tablet. Budete upozornení, keď bude aktualizácia pripravená na inštaláciu</string>
+    <string name="generic_update_desc" product="default">Aktualizácia CyanogenMod, <xliff:g id="version">%1$s</xliff:g>, je dostupná pre Váš telefón. Budete upozornení, keď bude aktualizácia pripravená na inštaláciu</string>
+    <string name="full_update_desc"><xliff:g id="upstream_desc">%1$s</xliff:g>. Budete upozornení, keď bude aktualizácia pripravená na inštaláciu</string>
+
+    <!-- Header states -->
+    <string name="pending_update_header">K dispozícii je aktualizáciu systému</string>
+
+    <!-- Notification -->
+    <string name="pending_update_notification">>Aktualizácia systému je pripravená</string>
+    <string name="pending_download_notification">Aktualizácia systému je k dispozícii</string>
+</resources>
