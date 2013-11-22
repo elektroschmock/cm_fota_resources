@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">Aktualizace systému</string>
+    <string name="default_header">Systém je aktuální</string>
+    <string name="default_desc">Stiskem tlačítka bude provedena kontrola aktualizace</string>
+    <string name="default_button">Zkontrolovat aktualizace</string>
+
+    <string name="cancel_button">Zrušit aktualizaci</string>
+    <string name="download_button">Stáhnout aktualizaci</string>
+    <string name="install_button">Instalovat aktualizaci</string>
+
+    <string name="nothing_found_desc">Při poslední kontrole (<xliff:g id="date" example="4 hours ago">%1$s</xliff:g>) nebyly nalezeny žádné aktualizace systému.</string>
+    <string name="generic_update_desc">Je dostupná aktualizace CyanogenMod - <xliff:g id="version">%1$s</xliff:g>. Až bude aktualizace připravena pro instalaci, budete upozorněn.</string>
+    <string name="full_update_desc"><xliff:g id="upstream_desc">%1$s</xliff:g>. Až bude aktualizace připravena pro instalaci, budete upozorněn</string>
+
+    <string name="pending_update_header">Je dostupná aktualizace systému</string>
+
+    <string name="pending_update_notification">Aktualizace systému je připravena</string>
+    <string name="pending_download_notification">Je dostupná aktualizace systému</string>
+</resources>
