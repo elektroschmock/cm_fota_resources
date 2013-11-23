@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <string name="app_name">Systemupdates</string>
+
+    <!-- Defaults -->
+    <string name="default_header">Ihr System ist auf dem neusten Stand</string>
+    <string name="default_desc">Berühren Sie die Schaltfläche, um nach Updates zu suchen</string>
+    <string name="default_button">Jetzt prüfen</string>
+
+    <!-- Button states -->
+    <string name="cancel_button">Update abbrechen</string>
+    <string name="download_button">Update herunterladen</string>
+    <string name="install_button">Update installieren</string>
+
+    <!-- Description states -->
+    <string name="nothing_found_desc">Bei der letzten Prüfung <xliff:g id="date" example="4 hours ago">%1$s</xliff:g> wurde kein Update für Ihr System gefunden</string>
+    <string name="generic_update_desc" product="tablet">Das CyanogenMod-Update <xliff:g id="version">%1$s</xliff:g> ist für Ihr Tablet verfügbar. Sie werden benachrichtigt, sobald es bereit zur Installation ist</string>
+    <string name="generic_update_desc" product="default">Das CyanogenMod-Update <xliff:g id="version">%1$s</xliff:g> ist für Ihr Telefon verfügbar. Sie werden benachrichtigt, sobald es bereit zur Installation ist</string>
+    <string name="full_update_desc"><xliff:g id="upstream_desc">%1$s</xliff:g>. Sie werden benachrichtigt, sobald es bereit zur Installation ist</string>
+
+    <!-- Header states -->
+    <string name="pending_update_header">Für Ihr System ist ein Update verfügbar</string>
+
+    <!-- Notification -->
+    <string name="pending_update_notification">Systemupdate ist bereit zur Installation</string>
+    <string name="pending_download_notification">Systemupdate ist verfügbar</string>
+</resources>
